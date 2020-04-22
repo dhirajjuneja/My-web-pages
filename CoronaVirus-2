@@ -90,15 +90,14 @@ width="960" >
       
     </p>
     </div>
-    
-    
-    
-    
-    
-    
-    
-      
-    </div>
+  </div>
+ <a href="https://CoronaVirus.dhirajjuneja.repl.co">
+   <div class="next_page">
+     <button class="btn btn-primary btn-lg btn-lg">
+       ⬅️Previous Page 
+     </button>
+   </div></a>
+  
     
     
     
