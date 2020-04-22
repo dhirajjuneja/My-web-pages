@@ -74,19 +74,15 @@
         Then dispose of the used tissue immediately.
         </div>
         </p>
-        
-      
-        
-           
-        
-        
-        
         </ul>
     </div>  
-      
-      
-      
-      
-    <script src="script.js"></script>
+ <a href="https://Corona2.dhirajjuneja.repl.co">
+      <div class="next_page">
+        <button class="btn btn-primary btn-lg">
+          Stages Of CornaVirus➡️
+        </button>
+      </div></a>
+   
+       <script src="script.js"></script>
   </body>
 </html>
