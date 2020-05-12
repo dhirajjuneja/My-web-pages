@@ -1,0 +1,88 @@
+# I created my web page 
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body class="body_all">
+   <header>
+      <div class="header_1">
+       <strong>
+       CornaVirus
+      </strong></div>
+   </header>   
+    <div class="body_1">
+      <div class="head_1">
+        <p>
+       Stay aware of the latest information on the COVID-19 outbreak, 
+      available on the WHO website and through your national and 
+      local public health authority. 
+      Most people who become infected experience mild illness and recover
+      , but it can be more severe for others.
+       </p></div>
+       <ul>
+         <p>
+        <div class="list_1"><strong>
+           <li> Wash your hands frequently:</li>
+       </strong></div>
+           <div class="col_1">
+            Regularly and thoroughly clean your hands 
+            with an alcohol-based hand rub or 
+            wash them with soap and water.
+        </div>
+        </p>
+        <p>
+          <div class="list_2">
+          <strong>
+            <li> Maintain social distancing:</li>
+          </strong></div>
+              <div class="col_2">
+              Maintain at least 1 metre (3 feet) 
+              distance between yourself and anyone 
+              who is coughing or sneezing.
+        </div>
+        <iframe height="400" width="900" src="https://www.youtube.com/embed/bPITHEiFWLc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        
+        </p>
+        <p>
+          <div class="list_3">
+          <strong>
+           <li> Avoid touching eyes, 
+           nose and mouth:</li>
+          </strong></div>
+      <div class="col_3">
+        Hands touch many surfaces and can pick up viruses. 
+        Once contaminated, hands can transfer 
+        the virus to your eyes, nose or mouth. 
+        From there, the virus can enter your body 
+        and can make you sick.
+        </div>
+        </p>
+        <p>
+          <div class="list_4">
+          <strong>
+          <li>Practice respiratory hygiene:</li>
+        </strong></div>
+        <div class="col_4">
+        Make sure you, and the people around you, 
+        follow good respiratory hygiene. This means 
+        covering your mouth and nose with your 
+        bent elbow or tissue when you cough or sneeze. 
+        Then dispose of the used tissue immediately.
+        </div>
+        </p>
+        </ul>
+    </div>  
+ <a href="https://Corona2.dhirajjuneja.repl.co">
+      <div class="next_page">
+        <button class="btn btn-primary btn-lg">
+          Stages Of CornaVirus➡️
+        </button>
+      </div></a>
+   <div></div>
+       <script src="script.js"></script>
+  </body>
+</html>
