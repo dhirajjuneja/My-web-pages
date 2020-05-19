@@ -1,0 +1,115 @@
+<html>
+ <head> 
+     <title>JavaScript CrashCourse</title>
+ </head> 
+ <body> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">; 
+  <link rel="stylesheet" href="R:/Challenges/All_Challenges.css"> 
+  <div class="container_1"> 
+   <h2>Challenge_1</h2> 
+   <div class="flex-box_1"> 
+    <div> 
+     <button class="btn btn-primary" , onclick="ageIndays()">Click me</button> 
+    </div> 
+    <div> 
+     <button class="btn btn-danger" , onclick="reset()">Reset</button> 
+    </div> 
+   </div> 
+   <div class="flex-box_1"> 
+    <div id="flex-box_results"> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="container_2"> 
+   <h2>Challenges_2</h2> 
+   <div class="flex-box_2"> 
+    <button class="btn btn-success" , onclick="catgenerator()">Generator </button> 
+   </div> 
+   <div class="flex-box_2" ,id="flex-cat"> 
+   </div> 
+  </div> 
+  <div class="container_3">
+    <h2>
+        Container 3
+    </h2>
+
+    <div class="flex_box_3" id="flex_div_3">
+        <img id="rock" src="https://images.homedepot-static.com/productImages/94af8836-0338-4802-914e-04cc71e562ad/svn/backyard-x-scapes-fake-rocks-hdd-rof-rocsb-64_1000.jpg" height="150px" width="150px" alt="" onclick="rpsGame(this)">
+        <img id="paper" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQopiAgFDF6aqn4a3BSLuuMoKEWfqDRH7fuEiIMlZi0rHUYhJwk&usqp=CAU" height="150px" width="150px" alt="" onclick="rpsGame(this)">
+        <img id="scissors" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcShhhVqhe_sEPM_BIDNewHCLPzC6CuqN5yR9ExO02VUWLkLCIap&usqp=CAU" height="150px" width="150px" alt="" onclick="rpsGame(this)">
+        
+    </div>
+</div>
+<div class="container_4">
+    <h2>
+        Challenge-4
+    </h2>        
+    <div class="flex-box_4">
+        <form action="">
+            <select name="color_codes" id="color_codes" onchange=buttonColorchange(this)>
+                <option value="random" class="random">Random</option>
+                <option value="red" class="red">Red</option>
+                <option value="green" class="green">Green</option>
+                <option value="reset" class="reset">Reset</option>
+                
+            </select>
+        </form>    
+            <button class="btn btn-secondary">
+                Yahoo
+        </button>
+        <button class="btn btn-primary">
+            Google
+        </button> 
+        <button class="btn btn-success">DuckGo</button>
+        <button class="btn btn-danger">Yadex</button>
+        
+    </div>
+</div>
+<div class="container_5">
+    <h2>Challenge-5 BlackJack</h2>
+    <h3><span id="blackjack-result">Let's Play</span></h3>
+
+        <div class="flex-blackjack-row-1">
+        
+        <div id="your-box">
+            <h2>You: <span id='your-blackjack-result'>0</span></h2> 
+        </div>
+
+        <div id="dealer-box">
+            <h2>Dealer: <span id='dealer-blackjack-result'>0</span></h2>
+        </div>
+    </div>
+
+        <div class="flex-blackjack-row-2">
+            <div>
+                <button class="btn-lg btn-primary mr-2" id="blackjack-hit-button">Hit</button>
+                <button class="btn-lg btn-warning mr-2" id="blackjack-stand-button">Stand</button>
+                <button class="btn-lg btn-danger mr-2"  id="blackjack-deal-button">Deal</button>
+            </div>
+        </div>
+        <div class="flex-blackjack-row-3">
+            <table>
+                <tr>
+                    <th>Wins</th>
+                    <th>Losses</th>
+                    <th>Draws</th>
+                </tr>
+                <tr>
+                    <td><span id="wins">0</span></td>
+                    <td><span id="losses">0</span></td>
+                    <td><span id="draws">0</span></td>
+                </tr>
+            </table> 
+
+
+               
+    </div>
+    
+</div>    
+
+
+
+
+<script src="R:/Challenges/All_Challenges.js"></script> 
+</body>
+</html>
