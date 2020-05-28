@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <style>
+            #firstrow,#secondrow,#thirdrow,#lastrow{
+    text-align: center;
+}
+.calculator_1{
+    width: 250px;
+    height: 200px;
+    margin-left: 50px;
+    border: 1px solid black;
+    padding: 10px;
+}
+#equals{
+    width: 120px;
+    height: 20px;
+    margin: 10px auto;
+    margin-left: 70px;
+
+}
+#text1{
+    justify-content: right;
+    margin-left: 50px;
+}
+        </style>
+        <script>
+            function displaynumber(n1){
+    calcform.text1.value = calcform.text1.value + n1;
+}
+        </script>
+    </head>
+    <body>
+        <div class="calculator_1">
+        <form id="calcform">
+            <input type="text" id="text1" style="text-align: center;">
+        <br><div id="firstrow">
+            <input type="button" id="btn9" value="9" onclick="displaynumber(btn9.value)">
+            <input type="button" id="btn8" value="8" onclick="displaynumber(btn8.value)">
+            <input type="button" id="btn7" value="7" onclick="displaynumber(btn7.value)">
+            <input type="button" id="add1" value="+" onclick="displaynumber(add1.value)">
+        </div>    
+        <br><div id="secondrow">
+            <input type="button" id="btn6" value="6"  onclick="displaynumber(btn6.value)">
+            <input type="button" id="btn5" value="5"  onclick="displaynumber(btn5.value)">
+            <input type="button" id="btn4" value="4"  onclick="displaynumber(btn4.value)">
+            <input type="button" id="sub1" value="-"  onclick="displaynumber(sub1.value)">
+        </div>    
+        <br><div id="thirdrow">
+            <input type="button" id="btn3" value="3" onclick="displaynumber(btn3.value)">
+            <input type="button" id="btn2" value="2" onclick="displaynumber(btn2.value)">
+            <input type="button" id="btn1" value="1" onclick="displaynumber(btn1.value)">
+            <input type="button" id="mult" value="*" onclick="displaynumber(mult.value)">
+        </div>    
+        <br><div id="lastrow">
+            <input type="button" id="btn0"   value="0" onclick="displaynumber(btn0.value)">
+            <input type="button" id="potbtn" value="." onclick="displaynumber(potbtn.value)">
+            <input type="button" id="divbtn" value="/" onclick="displaynumber(divbtn.value)">
+        </div><div id="equal">
+            <input type="button" id="equals" value="=" onclick="text1.value = eval(text1.value)">
+        </div>    
+
+        <br>
+        </div>
+    
+        
+        </form>
+        <script src="calculator.js"></script>
+    </body>
+</html>
